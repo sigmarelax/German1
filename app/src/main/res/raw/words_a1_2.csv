@@ -1,0 +1,531 @@
+die Ampel,traffic lights
+die Ankunftszeit,arrival time
+die Ansage,announcement
+die Apotheke,pharmacy
+der Arzt,doctor
+die Ärztin,female doctor
+die Auskunft,information
+außerdem,moreover
+außerplanmäßig,unscheduled
+das Auto,car
+die Bahn,train
+der Bahnhof,train station
+der Ball,ball
+die Bank,bank
+bezahlen,to pay
+die Bibliothek,library
+das Bürgerbüro,local city office
+der Bus,bus
+die Bushaltestelle,bus stop
+das Café,café
+dafür,for that
+dritte,third
+die Durchsage,announcement
+einfach,easy
+die Einzelfahrkarte,single ticket
+erste,first
+der Erwachsene,adult
+fahren,to travel
+der Fahrgast,passenger
+die Fahrkarte,travel ticket
+das Fahrrad,bicycle
+fallen,to fall
+fast,nearly
+der Flughafen,airport
+das Gebäude,building
+geben,to give
+gegenüber,opposite
+geradeaus,straight ahead
+das Gleis,platform
+gültig,valid
+halten,to stop
+die Haltestelle,stop/station
+der Hauptbahnhof,main train station
+hinter,behind
+das Hotel,hotel
+der Informationsschalter,information desk
+der Intercity (IC),intercity
+das Jobcenter,job centre
+das Kino,cinema
+die Kirche,church
+das Krankenhaus,hospital
+die Krankenkasse,health insurance
+die Kreuzung,crossroads
+die Kurzstrecke,short-haul
+die Linie,line
+links,left
+die Lösung,solution
+der Meter,metre
+der Metzger,butcher
+die Minute,minute
+die Mobilität,mobility
+das Motorrad,motorcycle
+nachfragen,to ask about
+nächster, nächste, nächstes,next
+nichts,nothing
+öffentlich,public
+die Orientierung,orientation/bearings
+der Park,park
+die Parkgebühr,parking fee
+der Parkplatz,car park
+die Polizei,police
+die Post,post office
+praktisch,practical
+rechts,right
+das Rathaus,city hall
+die Regionalbahn,regional train
+das Restaurant,restaurant
+die Ruhe,quiet
+der Schienenersatzverkehr,replacement bus service
+das Schwimmbad,swimming pool
+selten,rarely
+sowieso,anyway
+später,later
+der Stadtplan,city map
+der Stadtwald,city forest
+steigen,to climb
+die Straßenbahn,tram
+die Tageskarte,day ticket
+das Taxi,taxi
+überall,everywhere
+umsteigen,to change
+ungefähr,around
+unter,under
+die Verfügung,availability
+das Verkehrsmittel,means of transport
+verstanden,understood
+verzögern,to delay
+die Volkshochschule (VHS),adult education centre
+voll,full
+vorbei,past/over
+vorne,at the front
+warten,to wait
+der Weg,path
+der Winter,winter
+der Wochenmarkt,weekly market
+wohin,where to
+wollen,to want
+der Zug,train
+zweimal,twice
+zweite,second
+zwischen,between
+anfangen,to start
+der Arbeitstag,work day
+die Ausbildung,education
+ausfüllen,to fill out
+die Aushilfe,help
+der Automechaniker,car mechanic (male)
+die Automechanikerin,car mechanic (female)
+backen,to bake
+der Bäcker,baker (male)
+die Bäckerin,baker (female)
+bald,soon
+berichten,to report
+der Beruf,career
+beruflich,professionally
+die Bürokauffrau,office administrator (female)
+der Bürokaufmann,office administrator (male)
+der Chef,boss (male)
+die Chefin,boss (female)
+das Computerprogramm,computer programme
+das Computersystem,computer system
+dauern,to last
+dreimal,three times
+der Fahrer,driver
+fangen,to catch
+der Feierabend,finishing time
+flexibel,flexible
+fotografieren,to photograph
+freundlich,friendly
+der Führerschein,driver's license
+der Fußballspieler,football player
+die Gitarre,guitar
+halbtags,halfdays
+die Hausfrau,housewife
+der Hausmann,househusband
+der Hund,dog
+installieren,to install
+die Kantine,canteen
+kaputt,broken
+die Kasse,cash register
+der Kassierer,cashier (male)
+die Kassiererin,cashier (female)
+die Kauffrau,business woman
+der Kellner,waiter (male)
+die Kellnerin,waiter (female)
+klingeln,to ring
+der Koch,chef (male)
+die Köchin,chef (female)
+der Kollege,colleague (male)
+die Kollegin,colleague (female)
+das Konzert,concert
+korrigieren,to correct
+das Kraftfahrzeug (KFZ),motor vehicle
+der Krankenpfleger,nurse
+die Krankenschwester,nurse
+kreativ,creative
+langweilig,boring
+die Leute (Pl.),people
+die Mathematik,mathematics
+der Mechaniker,mechanic
+der Mensch,person
+das Mittagessen,lunch
+der Moment,moment
+der Musiklehrer,music teacher (male)
+die Musiklehrerin,music teacher (female)
+der Nachtdienst,night shift
+organisieren,to organise
+der Pizzafahrer,pizza driver
+die Pizzeria,pizzeria
+die Pflege,care
+prüfen,to check
+pünktlich,on time
+das Radio,radio
+rechnen,to calculate
+der Rentner,pensioner
+die Reparatur,repair
+reparieren,to repair
+der Reporter,reporter
+der Roman,novel
+schlimm,bad
+der Schüler,schoolchild (male)
+die Schülerin,schoolchild (female)
+servieren,to serve
+der Stress,stress
+der Student,student (male)
+die Studentin,student (female)
+studieren,to study
+der Taxifahrer,taxi driver (male)
+die Taxifahrerin,taxi driver (female)
+der Techniker,technician
+das Telefon,telephone
+der Traumberuf,dream job
+treffen,to meet
+die Universität,university
+unterrichten,to teach
+vielleicht,maybe
+wählen,to choose
+die Werkstatt,workshop
+das Wiederhören,(on telephone) talk again soon!
+zuerst,first
+das Altenpflegeheim,old people's home
+anbei,attached
+die Anrede,speech
+der Arm,arm
+atmen,to breathe
+das Auge,eye
+der Bauch,stomach
+das Bein,leg
+die Bauchschmerzen (Pl.),stomach ache
+der Bescheid,notice (I'll let you know)
+die Besserung,recovery
+der Betreff,subject line
+bevor,before
+bleiben,to stay
+der Brief,letter
+der Briefteil,part of letter
+die Brust,chest
+danach,after
+das Datum,date
+dürfen,to be allowed to
+der Ellbogen/Ellenbogen,elbow
+der Empfänger,recipient
+das Entschuldigungsschreiben,letter of apology
+erkälten,to get a cold
+die Erkältung,cold/flu
+euer, eure,your (informal)/yours
+das Fieber,fever
+der Finger,finger
+freundlich,friendly (best regards)
+geehrter, geehrte,dear
+das Gesicht,face
+die Gesundheit,health
+die Gesundheitskarte,health insurance card
+die Grippe,flu
+die Gruppe,group
+das Haar,hair
+der Hals,throat
+der Hals-Nasen-Ohren-Arzt,ear nose throat doctor
+das Halsweh,sore throat
+die Hand,hand
+der Hausarzt,GP (general practicioner)
+heiß,hot
+der Husten,cough
+Hustensaft,cough syrup
+das Knie,knee
+der Kopf,head
+die Kopfschmerzen (Pl.),headache
+der Körper,body
+der Körperteil,body part
+krank,ill
+die Krankheit,illness
+die Krankmeldung,sick note
+der März,march
+das Medikament,medicine
+der Mund,mouth
+der Nacken,neck
+die Nase,nose
+die Notfallsprechstunde,emergency consultation
+das Ohr,ear
+der Orthopäde,orthopaedist
+der Patient,patient (male)
+die Patientin,patient (female)
+per,by
+das Pflaster,plaster
+das Praktikum,internship
+die Praktikumsbetreuerin,internship supervisor
+die Praxis,practice
+die Praxisgemeinschaft,joint practice
+rauchen,to smoke
+regelmäßig,regularly
+das Rezept,recipe
+rot,red
+der Rücken,back
+rund,round
+die Salbe,ointment
+schicken,to send
+der Schmerz,pain
+der Schnupfen,runny nose
+die Schulter,shoulder
+schwanger,pregnant
+sein, seine,his
+die Sprechstunde,consultation hours
+die Sprechstundenhilfe,receptionist
+das Sprechzimmer,consultation room
+stark,strong
+die Stirn,forehead
+die Tablette,tablet
+der Termin,appointment
+der Tropfen,drops
+die Unterschrift,signature
+die Untersuchung,examination
+der Verband,association/bandage
+verschieden,different
+die Vorsorge,provision
+das Wartezimmer,waiting room
+der Wechsel,change
+wechseln,to change
+wehtun,to hurt
+wieder,again
+wiederkommen,to come again
+der Zahn,tooth
+der Zeh,toe
+zurzeit,currently
+aufwachsen,to grow up
+beantworten,to answer
+der Besuch,visit
+die Bewegung,movement
+bilden,to form
+die Blume,flower
+der Dienst,service
+extra,extra
+das Ferienhaus,holiday home
+früher,earlier
+geboren sein,to be born
+gerade,at the moment
+gucken,to watch
+der Hausflur,corridor
+heiraten,to marry
+das Hobby,hobby
+der Ingenieur,engineer
+die Insel,island
+die Inselrundfahrt,island tour
+kennen,to know (somebody)
+der Koffer,suitcase
+letzte,last
+das Meer,ocean
+der Mond,moon
+der Nachbar,neighbour (male)
+die Nachbarin,neighbour (female)
+die Natur,nature
+packen,to pack
+die Postkarte,postcard
+die Reise,journey
+das Schiff,ship
+der Seehund,seal
+der Ski,ski
+der Strand,beach
+stressig,stressful
+das Studium,course of study
+stundenlang,for hours
+die Suppe,soup
+süß,sweet
+das Tennis,tennis
+der Tourist,tourist
+unregelmäßig,infrequent
+der Urlaub,holiday
+verdienen,to earn
+warten,to wait
+das Wetter,weather
+anziehen,to dress
+der Anzug,suit
+beige,beige
+bequem,comfortable
+besser,better
+besten (am besten),best (the best)
+bestimmt,certainly
+blau,blue
+blöd,stupid
+die Bluse,blouse
+braun,brown
+bringen,to bring
+denken,to think
+der Einkaufsbummel,shopping spree
+eng,tight
+euch,you (informal)
+die Farbe,colour
+furchtbar,terrible
+gefallen,to please
+gegenseitig,mutual
+gelb,yellow
+genauso,equally
+glauben,to believe
+grau,grey
+günstig,good value
+das Hemd,shirt
+die Hose,trousers
+ihm,him
+die Jacke,jacket
+die Jeans,jeans
+der Jogginganzug,tracksuit
+der Kassenbon,receipt
+das Kaufhaus,department store
+die Klamotten (Pl.),clothes
+klasse,great
+das Kleid,dress
+die Kleidung,clothing
+das Kleidungsstück,item of clothing
+lila,purple
+der Mantel,coat
+meisten (am meisten),most (the most)
+die Mode,fashion
+das Modell,model
+die Mütze,hat
+online,online
+die Ordnung,order
+das Paar,pair
+passen,to fit
+positiv,positive
+probieren,to try
+der Prospekt,prospect
+der Pullover,jumper
+raten,to advise
+der Rock,skirt
+der Schal,scarf
+der Schuh,shoe
+schwarz,black
+sicher,secure
+die Socke,sock
+der Sportschuh,trainer
+die Strickjacke,cardigan
+der Strumpf,stocking
+tragen,to wear
+das T-Shirt,tshirt
+typisch,typical
+überhaupt,at all
+umtauschen,to exchange
+uns,us
+vergessen,to forget
+der Wintermantel,winter coat
+zurück,return
+die Achtung,caution
+der April,April
+aufregen,to get excited/upset
+der August,August
+bauen,to build
+der Baum,tree
+besuchen,to visit
+bewölkt,cloudy
+die Braut,bride
+darüber,about
+die Deutschlandkarte,map of Germany
+der Dezember,December
+eben,just
+einladen,to invite
+die Einladung,invitation
+einverstanden,agreed
+das Eis,ice cream
+der Februar,February
+die Feier,celebration
+feiern,to celebrate
+das Fest,party
+freuen,to be happy
+froh,glad
+der Frühling,spring
+fühlen,to feel
+die Gartenparty,garden party
+der Geburtstag,birthday
+die Geburtstagstorte,birthday cake
+das Geschenk,present
+glücklich,happy
+der Glückstag,lucky day
+der Grad,degrees
+hageln,hail
+der Handschuh,glove
+der Hase,rabbit
+der Herbst,autumn
+die Himmelsrichtung,compass point
+die Hochzeit,wedding
+die Hochzeitsfeier,wedding party
+die Jahreszahl,year
+die Jahreszeit,season
+der Januar,January
+der Juli,July
+der Kalender,calendar
+lieben,to love
+der Luftballon,air balloon
+lustig,funny
+der Mai,May
+die Mama,mum
+minus,minus
+mitbringen,to bring with
+nass,wet
+nebelig,foggy
+der Norden,north
+der November,November
+nun,now
+der Oktober,October
+das Oktoberfest,Octoberfest
+die Oma,Grandma
+der Osten,east
+das Osterei,easter egg
+das Osterfest,Easter
+der Osterhase,easter bunny
+das Ostern,Easter
+der Papa,dad
+räumen,to clear
+reden,to talk
+regnen,to rain
+samstags,on saturdays
+der Schatz,treasure
+scheinen,to shine
+schenken,to gift
+schlecht,bad
+der Schnee,snow
+der Schneemann,snowman
+schneien,to snow
+der Schokoladenkuchen,chocolate cake
+der Sekt,sparking wine
+der September,September
+der Sommer,summer
+sonnig,sunny
+die Spezialität,speciality
+das Standesamt,registry office
+stellen,to set
+der Süden,south
+tanzen,to dance
+der Teller,plate
+die Torte,cake
+trocken,dry
+unglücklich,unhappy
+der Unglückstag,unlucky day
+warm,warm
+das Weihnachten,Christmas
+der Weihnachtsbaum,Christmas tree
+die Weihnachtsfeier,Christmas party
+das Weihnachtsgeschenk,Christmas present
+der Weihnachtsmann,Santa claus
+das Westdeutschland,West Germany
+der Westen,west
+der Wetterbericht,weather report
+wieso,why

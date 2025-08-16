@@ -5,21 +5,36 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.isUnspecified
 import androidx.compose.ui.unit.sp
-import androidx.wear.compose.material.*
+import androidx.wear.compose.material.Colors
+import androidx.wear.compose.material.Icon
+import androidx.wear.compose.material.MaterialTheme
+import androidx.wear.compose.material.Scaffold
+import androidx.wear.compose.material.Shapes
+import androidx.wear.compose.material.Text
+import androidx.wear.compose.material.TimeText
+import androidx.wear.compose.material.Typography
+import androidx.wear.compose.material.Vignette
+import androidx.wear.compose.material.VignettePosition
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
@@ -38,7 +53,7 @@ class MainActivity : ComponentActivity() {
 
         try {
             // Get the resource identifier for the CSV file.
-            val resourceId = resources.getIdentifier("german_words", "raw", packageName)
+            val resourceId = resources.getIdentifier("words_a1_2", "raw", packageName)
             val inputStream = resources.openRawResource(resourceId)
             val reader = BufferedReader(InputStreamReader(inputStream))
 
@@ -125,12 +140,14 @@ fun WearApp(wordList: List<Word>) {
                         .padding(16.dp),
                     contentAlignment = Alignment.Center
                 ) {
-                    Text(
+                    AutoResizeText(
                         text = wordList[currentWordIndex].german,
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 34.sp,
-                        textAlign = TextAlign.Center,
-                        color = MaterialTheme.colors.primary
+                        style = TextStyle(
+                            fontWeight = FontWeight.Bold,
+                            textAlign = TextAlign.Center,
+                            color = MaterialTheme.colors.primary
+                        ),
+                        maxFontSize = 34.sp
                     )
                 }
                 // Box for the English translation, shown when 'revealed' is true.
@@ -141,18 +158,84 @@ fun WearApp(wordList: List<Word>) {
                             .padding(16.dp),
                         contentAlignment = Alignment.Center
                     ) {
-                        Text(
+                        AutoResizeText(
                             text = wordList[currentWordIndex].english,
-                            fontSize = 24.sp,
-                            textAlign = TextAlign.Center,
-                            color = MaterialTheme.colors.secondary
+                            style = TextStyle(
+                                textAlign = TextAlign.Center,
+                                color = MaterialTheme.colors.secondary
+                            ),
+                            maxFontSize = 24.sp
                         )
                     }
+                }
+
+                // Visual indicator to swipe up for translation.
+                AnimatedVisibility(
+                    visible = !revealed,
+                    modifier = Modifier.align(Alignment.BottomCenter)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.KeyboardArrowUp,
+                        contentDescription = "Swipe up to reveal translation",
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
+                }
+
+                // Visual indicator to swipe down to hide translation.
+                AnimatedVisibility(
+                    visible = revealed,
+                    modifier = Modifier.align(Alignment.BottomCenter)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.KeyboardArrowDown,
+                        contentDescription = "Swipe down to hide translation",
+                        modifier = Modifier.padding(bottom = 8.dp)
+                    )
                 }
             }
         }
     }
 }
+
+/**
+ * A composable that automatically resizes text to fit its container.
+ * @param text The text to display.
+ * @param style The base style of the text.
+ * @param modifier The modifier for this composable.
+ * @param maxFontSize The maximum font size the text can be.
+ */
+@Composable
+fun AutoResizeText(
+    text: String,
+    style: TextStyle,
+    modifier: Modifier = Modifier,
+    maxFontSize: androidx.compose.ui.unit.TextUnit
+) {
+    var scaledTextStyle by remember { mutableStateOf(style.copy(fontSize = maxFontSize)) }
+    var readyToDraw by remember { mutableStateOf(false) }
+
+    Text(
+        text = text,
+        modifier = modifier.drawWithContent {
+            if (readyToDraw) {
+                drawContent()
+            }
+        },
+        style = scaledTextStyle,
+        softWrap = false,
+        onTextLayout = { textLayoutResult ->
+            if (textLayoutResult.didOverflowWidth) {
+                if (scaledTextStyle.fontSize.isUnspecified) {
+                    scaledTextStyle = scaledTextStyle.copy(fontSize = maxFontSize)
+                }
+                scaledTextStyle = scaledTextStyle.copy(fontSize = scaledTextStyle.fontSize * 0.9)
+            } else {
+                readyToDraw = true
+            }
+        }
+    )
+}
+
 
 // Custom theme for the flashcards app.
 @Composable
